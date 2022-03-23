@@ -15,4 +15,4 @@ def create_arr_zeros_dioganal_ones(n):
     for i in range(n):
         Matrix[i][i]=1
     return Matrix
-print(create_arr_zeros_dioganal_ones(3))
+create_arr_zeros_dioganal_ones(3)
