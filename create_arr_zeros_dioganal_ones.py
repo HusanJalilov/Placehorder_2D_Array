@@ -10,7 +10,7 @@ def create_arr_zeros_dioganal_ones(n):
         list: 2D list
     """
     
-    z = [[0 for x in range(n)] for y in range(n)] 
+    z = [[0 for x in range(n)] for y in range(n)]    
     for i in range(n):
         z[i][i]=1
     return z
