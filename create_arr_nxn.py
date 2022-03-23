@@ -7,3 +7,7 @@ def create_arr_nxn(n,k):
     Returns:
         list: 2D list
     """
+    a=0
+    Matrix = [[k for x in range(n)] for y in range(n)] 
+    return Matrix
+create_arr_nxn(6,3)
