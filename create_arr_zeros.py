@@ -7,3 +7,6 @@ def create_arr_zeros(n,m):
     Returns:
       	list: 2D list
     """
+    a=0
+    Matrix = [[0 for x in range(m)] for y in range(n)] 
+    return Matrix
